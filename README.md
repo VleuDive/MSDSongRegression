@@ -1,8 +1,10 @@
 # MSDSongRegression
 Machine leraning project using MSD year-prediction dataset. Using Tenserflow and Numpy libraries of Python.
 
-Problem Type: Regression
+Problem Type: Classification
 Used Libraries: Tensorflow, Numpy
+Attributes: 12
+Classes: 90
 
 This project uses modified MSD year-prediction based on YearPredictionMSD Data Set of UCI Machine Learning Repository.
 The dataset originally has 90 features(12 timbre average data, 78 timbre covarianve data), but to make the problem more simple, in this project only 12 of them(timbre averate data) are used.
